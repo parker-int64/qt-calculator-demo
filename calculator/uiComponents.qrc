@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="uiButton" lang="UI组件">
+    <file>uiComponents/backspaceButton_clicked.png</file>
+    <file>uiComponents/calc.ico</file>
+    <file>uiComponents/backspaceButton_unclicked.png</file>
+    <file>uiComponents/divButton_clicked.png</file>
+    <file>uiComponents/divButton_unclicked.png</file>
+    <file>uiComponents/equalButton_clicked.png</file>
+    <file>uiComponents/equalButton_unclicked.png</file>
+    <file>uiComponents/minusButton_clicked.png</file>
+    <file>uiComponents/minusButton_unclicked.png</file>
+    <file>uiComponents/multiButton_clicked.png</file>
+    <file>uiComponents/multiButton_unclicked.png</file>
+    <file>uiComponents/negButton_clicked.png</file>
+    <file>uiComponents/negButton_unclicked.png</file>
+    <file>uiComponents/plusButton_clicked.png</file>
+    <file>uiComponents/plusButton_unclicked.png</file>
+  </qresource>
+</RCC>

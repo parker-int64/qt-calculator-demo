@@ -1,0 +1,36 @@
+{
+	"BUILD_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/calculator_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/calculator",
+	"CMAKE_SOURCE_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/calculator",
+	"INCLUDE_DIR" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/calculator_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/backspaceButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/backspaceButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/negButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/plusButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/minusButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/equalButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/divButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/negButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/calc.ico",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/divButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/multiButton_clicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/minusButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/multiButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/plusButton_unclicked.png",
+		"C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents/equalButton_clicked.png"
+	],
+	"LOCK_FILE" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/calculator_autogen.dir/AutoRcc_uiComponents_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "uiComponents" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_uiComponents.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/Qt5.14.2/5.14.2/mingw73_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/INTEL/Desktop/calculator-workspace/build-calculator-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/CMakeFiles/calculator_autogen.dir/AutoRcc_uiComponents_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/INTEL/Desktop/calculator-workspace/calculator/uiComponents.qrc",
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>316</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230,230,230)</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_show_exp">
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="styleSheet">
+      <string notr="true">font: 18pt &quot;Microsoft YaHei UI&quot;;
+border: 4px solid #000000</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>2</number>
+     </property>
+     <property name="topMargin">
+      <number>2</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>2</number>
+     </property>
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="clearButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Consolas</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Consolas&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}
+</string>
+       </property>
+       <property name="text">
+        <string>C</string>
+       </property>
+       <property name="shortcut">
+        <string>Esc</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="numButton_5">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>5</string>
+       </property>
+       <property name="shortcut">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="2">
+      <widget class="QPushButton" name="numButton_0">
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="shortcut">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="numButton_7">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>7</string>
+       </property>
+       <property name="shortcut">
+        <string>7</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="backspaceButton">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	image: url(:/uiButton/uiComponents/backspaceButton_unclicked.png);
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover {
+	
+	image: url(:/uiButton/uiComponents/backspaceButton_clicked.png);
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>Backspace</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="numButton_3">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>3</string>
+       </property>
+       <property name="shortcut">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="numButton_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>2</string>
+       </property>
+       <property name="shortcut">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="negPosButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0);
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>±</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="numButton_6">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>6</string>
+       </property>
+       <property name="shortcut">
+        <string>6</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="equalButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>120</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,212,138);
+	color:rgb(0,0,0); 
+	image: url(:/uiButton/uiComponents/equalButton_unclicked.png);
+} 
+QPushButton:hover { 
+	background-color: rgb(247,198,69); 
+	image: url(:/uiButton/uiComponents/equalButton_clicked.png);
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>Enter</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="dotButton">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Consolas&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>.</string>
+       </property>
+       <property name="shortcut">
+        <string>.</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="minusButton">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	image: url(:/uiButton/uiComponents/minusButton_unclicked.png);
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	image: url(:/uiButton/uiComponents/minusButton_clicked.png);
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="plusButton">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+	image: url(:/uiButton/uiComponents/plusButton_unclicked.png);
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209);
+	image: url(:/uiButton/uiComponents/plusButton_clicked.png);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>+</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="numButton_8">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>8</string>
+       </property>
+       <property name="shortcut">
+        <string>8</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="multiButton">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	image: url(:/uiButton/uiComponents/multiButton_unclicked.png);
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	image: url(:/uiButton/uiComponents/multiButton_clicked.png);
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>*</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="numButton_4">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>4</string>
+       </property>
+       <property name="shortcut">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="divButton">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	image: url(:/uiButton/uiComponents/divButton_unclicked.png);
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	image: url(:/uiButton/uiComponents/divButton_clicked.png);
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="shortcut">
+        <string>/</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="numButton_1">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+       <property name="shortcut">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="numButton_9">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 0px;
+	background-color: rgb(250,250,250);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}</string>
+       </property>
+       <property name="text">
+        <string>9</string>
+       </property>
+       <property name="shortcut">
+        <string>9</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="ceButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Consolas&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}
+</string>
+       </property>
+       <property name="text">
+        <string>CE</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="leftbrackButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+         <horstretch>3</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Consolas&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}
+</string>
+       </property>
+       <property name="text">
+        <string>（</string>
+       </property>
+       <property name="shortcut">
+        <string>(</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="maximumSize">
+        <size>
+         <width>78</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton { 
+	font: 18pt &quot;Consolas&quot;;
+	border-radius: 0px;
+	background-color: rgb(240,240,240);
+	color:rgb(0,0,0); 
+} 
+QPushButton:hover { 
+	background-color: rgb(209,209,209); 
+}
+</string>
+       </property>
+       <property name="text">
+        <string>）</string>
+       </property>
+       <property name="shortcut">
+        <string>)</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
